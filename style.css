@@ -2374,7 +2374,7 @@ body .search-modal .close:hover {
   background-position: center center !important;
 }
 .rs-breadcrumbs .breadcrumbs-inner {
-  padding: 280px 0 180px;
+  padding: 120px 0 120px;
 }
 .rs-breadcrumbs .breadcrumbs-inner .page-title {
   font-size: 48px;
@@ -2459,10 +2459,10 @@ body .search-modal .close:hover {
   background: linear-gradient(170deg, #ffffff00 0%, #000000 120%), url(assets/images/banner/contact-banner.jpg);
 }
 .rs-breadcrumbs.img4 {
-  background: url(assets/images/breadcrumbs/inr-4.jpg);
+  background: linear-gradient(170deg, #ffffff00 0%, #000000 120%), url(assets/images/banner/banner13.jpg);
 }
 .rs-breadcrumbs.img5 {
-  background: url(assets/images/breadcrumbs/inr-5.jpg);
+  background: linear-gradient(170deg, #ffffff00 0%, #000000 120%), url(assets/images/banner/banner-7.jpg);
 }
 /* ------------------------------------
     08. Banner Section CSS
@@ -3288,7 +3288,7 @@ body .search-modal .close:hover {
   position: absolute;
   left: 200px;
   top: 30px;
-  color: #E72C2C1A;
+  color: #e72c2c47;
   font-size: 60px;
   font-weight: 600;
 }
@@ -3297,7 +3297,8 @@ body .search-modal .close:hover {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  background-image: radial-gradient(at center center, #1a0b8c 65%, #fa50cb 120%);
+  /* background-image: radial-gradient(at center center, #1a0b8c 65%, #fa50cb 120%); */
+  background-image: radial-gradient(at center center, var(--red-tri) 65%, var(--red-pri) 120%);
   transition: 0.5s all;
   background-size: 400% 400%;
   position: absolute;
@@ -3442,6 +3443,12 @@ body .search-modal .close:hover {
 }
 .rs-services.style5 .services-slider.purple-slide {
   background-image: url(assets/images/event/our-event/4.jpg);
+}
+.rs-services.style5 .services-slider.sea-green-slide {
+  background-image: url(assets/images/event/our-event/5.jpg);
+}
+.rs-services.style5 .services-slider.purple-blue-slide {
+  background-image: url(assets/images/event/our-event/6.jpg);
 }
 .rs-services-single .services-add {
   background: url(assets/images/services/single/side-img.html);

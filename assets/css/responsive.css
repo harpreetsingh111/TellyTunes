@@ -878,6 +878,9 @@
 .rs-services.style5 .services-slider.pink-slide .services-item {
     background-image: linear-gradient(250deg, #CC8B08CC 0%, #FA0368D4 100%);
 } 
-.rs-services.style5 .services-slider.purple-slide .services-item {
-    background-image: linear-gradient(220deg, #7E00C796 0%, #7E00C7 100%);
+.rs-services.style5 .services-slider.sea-green-slide .services-item {
+    background-image: linear-gradient(220deg, #7e00c7b8 10%, #00c774c2 100%);
+}
+.rs-services.style5 .services-slider.purple-blue-slide .services-item {
+    background-image: linear-gradient(220deg, #6200ffad 10%, #03b6faf0 100%);
 }
