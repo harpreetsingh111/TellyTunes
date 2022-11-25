@@ -1,14 +1,4 @@
-/**
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Evenio - Events & Conference HTML Template
-* Author : reacthemes
-* Author URI : http://www.reactheme.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/
+ 
 
 (function($) {
     'use strict';
@@ -34,6 +24,10 @@
         })
         .done(function(response) {
             // Make sure that the formMessages div has the 'success' class.
+
+            console.log(response)
+            return false;
+
             $(formMessages).removeClass('error');
             $(formMessages).addClass('success');
 

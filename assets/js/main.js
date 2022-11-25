@@ -1,14 +1,4 @@
-/**
-*
-* -----------------------------------------------------------------------------
-*
-* Template : Evenio - Events & Conference HTML Template
-* Author : reacthemes
-* Author URI : http://www.reactheme.com/
-*
-* -----------------------------------------------------------------------------
-*
-**/
+ 
 (function($) {
 	"use strict";
     // sticky menu
